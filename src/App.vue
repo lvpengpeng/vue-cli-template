@@ -12,7 +12,8 @@ export default {
 }
 </script>
 
-<style scoped lang="less">
+<style lang="scss">
+  @import './style/index.scss';
 #app {
   .header{
     width: 100%;
