@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <div class="header"></div>
     <img src="./assets/logo.png">
     <router-view/>
   </div>
@@ -11,8 +12,13 @@ export default {
 }
 </script>
 
-<style>
+<style scoped lang="less">
 #app {
+  .header{
+    width: 100%;
+    height: 100px;
+    background: burlywood;
+  }
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
